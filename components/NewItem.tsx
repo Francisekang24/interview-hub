@@ -47,7 +47,7 @@ export default function NewItem() {
 
 	return (
 		<Timeline defaultValue={3}>
-			<TimelineItem value={1}
+			<TimelineItem
 				key={1}
 				step={1}
 				className="group-data-[orientation=vertical]/timeline:ms-10"
@@ -101,7 +101,7 @@ export default function NewItem() {
 					</Tabs>
 				</TimelineContent>
 			</TimelineItem>
-			<TimelineItem value={2}
+			<TimelineItem
 				key={2}
 				step={2}
 				className="group-data-[orientation=vertical]/timeline:ms-10"
@@ -155,7 +155,7 @@ export default function NewItem() {
 					</Tabs>
 				</TimelineContent>
 			</TimelineItem>
-			<TimelineItem value={3}
+			<TimelineItem
 				key={3}
 				step={3}
 				className="group-data-[orientation=vertical]/timeline:ms-10"

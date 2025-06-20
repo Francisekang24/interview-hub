@@ -18,8 +18,8 @@ import {
 
 // Navigation links array to be used in both desktop and mobile menus
 const navigationLinks = [
-	{ href: "#", label: "Dashboard" },
-	{ href: "#", label: "Interview Prep" },
+	{ href: "/dashboard", label: "Dashboard" },
+	{ href: "/interview-prep", label: "Interview Prep" },
 	{ href: "#", label: "Mock Interview" },
 	{ href: "#", label: "Calendar" },
 ]
@@ -142,7 +142,7 @@ export default function Navbar() {
 					<Button asChild variant="ghost" size="sm" className="text-sm">
 						<a href="#">Sign In</a>
 					</Button>
-					<Button asChild variant="primary" size="sm" className="text-sm">
+					<Button asChild size="sm" className="text-sm">
 						<a href="#">Get Started</a>
 					</Button>
 				</div>
